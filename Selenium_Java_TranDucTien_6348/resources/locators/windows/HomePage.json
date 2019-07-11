@@ -1,0 +1,16 @@
+{
+	"default": {
+		"iconEdit": {
+			"type": "xpath",
+			"value": "//div[text()='%s']//ancestor::div[@class='ctitle']//li[@class='edit']"
+		},
+		"iconMore": {
+			"type": "xpath",
+			"value": "//div[text()='%s']//ancestor::div[@class='ctitle']//li[@class='more']"
+		},
+		"iconRemove": {
+			"type": "xpath",
+			"value": "//div[text()='%s']//ancestor::div[@class='ctitle']//li[@class='more']//span[@title='Remove panel']"
+		}
+	}
+}

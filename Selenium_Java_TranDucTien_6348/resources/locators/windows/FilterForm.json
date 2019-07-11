@@ -1,0 +1,28 @@
+{
+	"default": {
+		"tabDistrict": {
+			"type": "xpath",
+			"value": "//div[@id='fdDlgSearchFilter']//li[@data-item-type='district']"
+		},
+		"tabCuisine": {
+			"type": "xpath",
+			"value": "//div[@id='fdDlgSearchFilter']//li[@data-item-type='cuisine']"
+		},
+		"tabCategory": {
+			"type": "xpath",
+			"value": "//div[@id='fdDlgSearchFilter']//li[@data-item-type='category']"
+		},
+		"chkSelectValue": {
+			"type": "xpath",
+			"value": "//li[label[text()='%s']]/input"
+		},
+		"btnSearch": {
+			"type": "xpath",
+			"value": "//a[@ng-click='Search()']"
+		},
+		"btnClearFilter": {
+			"type": "xpath",
+			"value": "//a[@ng-click='ClearFilter()']"
+		}
+	}	
+}

@@ -1,0 +1,80 @@
+{
+	"default": {
+		"cbbLocation": {
+			"type": "xpath",
+			"value": "//div[@id='head-province']"
+		},
+		"mneLocation": {
+			"type": "xpath",
+			"value": "//div[@id='popupLocation']"
+		},
+		"cbbCategory": {
+			"type": "xpath",
+			"value": "//div[@id='head-navigation']"
+		},
+		"mneCategory": {
+			"type": "xpath",
+			"value": "//div[@id='head-navigation']/div/ul"
+		},
+		"optCategory": {
+			"type": "xpath",
+			"value": "//div[@id='head-navigation']//li[a[span[text()='%s']]]"
+		},
+		"optSubCategory": {
+			"type": "xpath",
+			"value": "//div[@id='head-navigation']//li[a[span[text()='%s']]]//a[@title='%s']"
+		},
+		"txtSearch": {
+			"type": "xpath",
+			"value": "//input[@id='pkeywords']"
+		},
+		"btnSearch": {
+			"type": "xpath",
+			"value": "//a[@class='ico-search']"
+		},
+		"btnFilter": {
+			"type": "xpath",
+			"value": "//a[@class='ico-nofilter']"
+		},
+		"btnSelectType": {
+			"type": "xpath",
+			"value": "//ul[@class='nav-place-menu']"
+		},
+		"btnChangeLanguage": {
+			"type": "xpath",
+			"value": "//div[@class='language-dropdown-container']"
+		},
+		"imgLanguageValue": {
+			"type": "xpath",
+			"value": "//div[@class='language-dropdown-container']//img"
+		},
+		"optLanguage": {
+			"type": "xpath",
+			"value": "//div[@class='language-dropdown-container']//a[img[contains(@src,'%s')]]"
+		},
+		"tblDelivery": {
+			"type": "xpath",
+			"value": "//div[@id='box-delivery']"
+		},
+		"optLocation": {
+			"type": "xpath",
+			"value": "//li[a[label[text()='%s']]]"
+		},
+		"txtLocation": {
+			"type": "xpath",
+			"value": "//div[@id='head-province']//input"
+		},
+		"filterForm": {
+			"type": "xpath",
+			"value": "//div[@id='fdDlgSearchFilter']"
+		},
+		"mneSelectType": {
+			"type": "xpath",
+			"value": "//ul[@class='nav-place-menu']//ul[@class='menu-box']"
+		},
+		"optSelectType": {
+			"type": "xpath",
+			"value": "//li[a[@title='%s']]"
+		}
+	}	
+}

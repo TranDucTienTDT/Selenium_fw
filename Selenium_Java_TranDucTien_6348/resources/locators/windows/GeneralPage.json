@@ -1,0 +1,88 @@
+{
+	"default": {
+		"itemRepo": {
+			"type": "xpath",
+			"value": "//li/a[@href='#Repository']"
+		},
+		"txtRepoName": {
+			"type": "xpath",
+			"value": "//div[@id='header']//a/span"
+		},
+		"itemAdministrator": {
+			"type": "xpath",
+			"value": "//a[text()='administrator']"
+		},
+		"lnkMyProfile": {
+			"type": "xpath",
+			"value": "//a[text()='My Profile']"
+		},
+		"lnkLogout ": {
+			"type": "xpath",
+			"value": "//a[text()='Logout']"
+		},
+		"lnkAdminister": {
+			"type": "xpath",
+			"value": "//a[text()='Administer']"
+		},
+		"lnkDataProfile": {
+			"type": "xpath",
+			"value": "//a[text()='Data Profiles']"
+		},
+		"lnkCreateDataProfile": {
+			"type": "xpath",
+			"value": "//li/a[@class='add' and text()='Create Profile']"
+		},
+		"lnkPanels": {
+			"type": "xpath",
+			"value": "//a[text()='Panels']"
+		},
+		"tabOverview": {
+			"type": "xpath",
+			"value": "//a[text()='Overview']"
+		},
+		"tabExecutionDashboard": {
+			"type": "xpath",
+			"value": "//a[contains(.,'Execution') and contains(.,'Dashboard')]"
+		},
+		"lnkGlobalSetting": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']"
+		},
+		"lnkAddPage": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']//li[a[text()='Add Page']]"
+		},
+		"lnkChoosePanels": {
+			"type": "xpath",
+			"value": "//li[@class='mn-panels']/a"
+		},
+		"btnCreateNewPanel": {
+			"type": "xpath",
+			"value": "//span[text()='Create new panel']"
+		},
+		"lnkCreatePanel": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']//li[a[text()='Create Panel']]"
+		},
+		"lnkPage": {
+			"type": "xpath",
+			"value": "//li[a[text()='%s']]"
+		},
+		"lnkDelete": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']//li[a[text()='Delete']]"
+		},
+		"lnkEdit": {
+			"type": "xpath",
+			"value": "//li[@class='mn-setting']//li[a[text()='Edit']]"
+		},
+		"listPages": {
+			"type": "xpath",
+			"value": "//ul[li[@class='mn-setting']]/li[a[text()]]"
+		},
+		"lnkInChoosePanels": {
+			"type": "xpath",
+			"value": "//a[text()='%s']"
+		}
+	}
+}

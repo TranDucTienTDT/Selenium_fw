@@ -1,0 +1,20 @@
+{
+	"default": {
+		"lnkAddNew": {
+			"type": "xpath",
+			"value": "//div[@class='panel_tag2']/a[text()='Add New']"
+		},
+		"lnkDelete": {
+			"type": "xpath",
+			"value": "//div[@class='panel_tag2']/a[text()='Delete']"
+		},
+		"lnkCheckAll": {
+			"type": "xpath",
+			"value": "//table[@class='GridView']//a[text()='Check All']"
+		},
+		"lnkUncheckAll": {
+			"type": "xpath",
+			"value": "//table[@class='GridView']//a[text()='UnCheck All']"
+		}
+	}	
+}

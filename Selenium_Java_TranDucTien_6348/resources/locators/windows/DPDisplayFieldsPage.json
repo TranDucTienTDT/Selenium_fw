@@ -1,0 +1,28 @@
+{
+	"default": {
+		"btnBack": {
+			"type": "xpath",
+			"value": "//input[@value='Back']"
+		},
+		"btnFinish": {
+			"type": "xpath",
+			"value": "//input[@value='Finish']"
+		},
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//td/input[@value='Cancel']"
+		},
+		"btnNext": {
+			"type": "xpath",
+			"value": "//input[@value='Next']"
+		},
+		"chkDisplayField": {
+			"type": "xpath",
+			"value": "//label[normalize-space(text())='%s']/input"
+		},
+		"lblHeaderDisplayFields": {
+			"type": "xpath",
+			"value": "//td[text()='Display Fields']"
+		}
+	}
+}

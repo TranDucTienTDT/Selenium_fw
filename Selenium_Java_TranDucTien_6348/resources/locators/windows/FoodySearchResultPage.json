@@ -1,0 +1,24 @@
+{
+	"default": {
+		"lnkSearchResult": {
+			"type": "xpath",
+			"value": "//a[text()='%s']"
+		},
+		"currentSelectedMenuItem": {
+			"type": "xpath",
+			"value": "//div[@id='directory-search-resulttab']/div/ul/li/a[@class='current']"
+		},
+		"tabMenuItem": {
+			"type": "xpath",
+			"value": "//ul/li/a[text()='%s']"
+		},
+		"lblStoreName": {
+			"type": "xpath",
+			"value": "//h2/a[text()='%s']"
+		},
+		"lblStoreAddress": {
+			"type": "xpath",
+			"value": "//div[@class = 'address']/span[text()='%s']"
+		}
+	}	
+}

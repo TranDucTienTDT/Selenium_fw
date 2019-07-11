@@ -1,0 +1,36 @@
+{
+	"default": {
+		"lnkAddNew": {
+			"type": "xpath",
+			"value": "//a[text()='Add New']"
+		},
+		"lnkDeleteInTopPage": {
+			"type": "xpath",
+			"value": "//div[a[text()='Add New']]/a[text()='Delete']"
+		},
+		"lnkCheckAll": {
+			"type": "xpath",
+			"value": "//a[text()='Check All']"
+		},
+		"lnkUncheckAll": {
+			"type": "xpath",
+			"value": "//a[text()='UnCheck All']"
+		},
+		"lnkDelete": {
+			"type": "xpath",
+			"value": "//td[a[text()='%s']]/following-sibling::td/a[text()='Delete']"
+		},
+		"lnkEdit": {
+			"type": "xpath",
+			"value": "//td[a[text()='%s']]/following-sibling::td/a[text()='Edit']"
+		},
+		"chkDataProfilesName": {
+			"type": "xpath",
+			"value": "//td[a[text()='%s']]/preceding-sibling::td/input[@name='chkDel']"
+		},
+		"lnkDataProfilesName": {
+			"type": "xpath",
+			"value": "//a[text()='%s']"
+		}
+	}
+}

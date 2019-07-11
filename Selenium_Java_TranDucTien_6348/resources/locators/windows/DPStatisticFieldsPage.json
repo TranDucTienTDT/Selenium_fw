@@ -1,0 +1,32 @@
+{
+	"default": {
+		"chkStatisticField": {
+			"type": "xpath",
+			"value": "//td[normalize-space(text())='%s']/input"
+		},
+		"lblStatisticField": {
+			"type": "xpath",
+			"value": "//td[normalize-space(text())='%s']"
+		},
+		"btnBack": {
+			"type": "xpath",
+			"value": "//input[@value='Back']"
+		},
+		"btnFinish": {
+			"type": "xpath",
+			"value": "//input[@value='Finish']"
+		},
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//td/input[@value='Cancel']"
+		},
+		"lnkCheckAll": {
+			"type": "xpath",
+			"value": "//a[text()='Check All']"
+		},
+		"lnkUncheckAll": {
+			"type": "xpath",
+			"value": "//a[text()='Uncheck All']"
+		}
+	}	
+}

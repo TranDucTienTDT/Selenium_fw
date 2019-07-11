@@ -1,0 +1,8 @@
+{
+	"default": {
+		"lblTitle": {
+			"type": "xpath",
+			"value": "//div[@class='title' and text()='%s']"
+		}
+	}	
+}

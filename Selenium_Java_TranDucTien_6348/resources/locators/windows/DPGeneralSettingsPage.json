@@ -1,0 +1,32 @@
+{
+	"default": {
+		"lnkMenuOption": {
+			"type": "xpath",
+			"value": "//ul[@id='wstep']/li[text()='%s']"
+		},
+		"lblHeader": {
+			"type": "xpath",
+			"value": "//td[@class='profilesettingheader' and text()='%s']"
+		},
+		"txtName": {
+			"type": "xpath",
+			"value": "//input[@id='txtProfileName']"
+		},
+		"cbbItemType": {
+			"type": "xpath",
+			"value": "//select[@id='cbbEntityType']"
+		},
+		"btnNext": {
+			"type": "xpath",
+			"value": "//input[@type='button' and @value='Next']"
+		},
+		"cbbRelatedData": {
+			"type": "xpath",
+			"value": "//select[@id='cbbSubReport']"
+		},
+		"btnGeneral": {
+			"type": "xpath",
+			"value": "//input[@type='button' and @value='%s']"
+		}
+	}
+}

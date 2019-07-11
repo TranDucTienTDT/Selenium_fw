@@ -1,0 +1,36 @@
+{
+	"default": {
+		"cbbAndOrCondition": {
+			"type": "xpath",
+			"value": "//select[@id='cbbAndOrCondition']"
+		},
+		"cbbField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbField']"
+		},
+		"cbbOperator": {
+			"type": "xpath",
+			"value": "//select[@id='cbbCondition']"
+		},
+		"txtValue": {
+			"type": "xpath",
+			"value": "//input[@id='txtSearchText']"
+		},
+		"btnAdd": {
+			"type": "xpath",
+			"value": "//button[@title='Add condition']"
+		},
+		"btnRemove": {
+			"type": "xpath",
+			"value": "//button[@title='Remove condition']"
+		},
+		"tableListCondition": {
+			"type": "xpath",
+			"value": "//select[@id='listCondition']"
+		},
+		"btnNext": {
+			"type": "xpath",
+			"value": "//input[@type='button' and @value='Next']"
+		}
+	}
+}

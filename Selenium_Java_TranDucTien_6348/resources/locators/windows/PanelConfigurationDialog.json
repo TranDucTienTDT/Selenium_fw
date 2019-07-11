@@ -1,0 +1,12 @@
+{
+	"default": {
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//div[@id='div_panelConfigurationDlg']//input[@id='Cancel']"
+		},
+		"btnOK": {
+			"type": "xpath",
+			"value": "//div[@id='div_panelConfigurationDlg']//input[@id='OK']"
+		}
+	}	
+}

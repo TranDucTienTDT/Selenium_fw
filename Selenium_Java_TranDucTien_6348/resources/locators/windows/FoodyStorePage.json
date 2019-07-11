@@ -1,0 +1,20 @@
+{
+	"default": {
+		"lblHeaderTitle": {
+			"type": "xpath",
+			"value": "//h1[@itemprop='name']"
+		},
+		"lblStreetAddress": {
+			"type": "xpath",
+			"value": "//span[@itemprop='streetAddress']"
+		},
+		"lblDistrictAddress": {
+			"type": "xpath",
+			"value": "//span[@itemprop='addressLocality']"
+		},
+		"lblCityAddress": {
+			"type": "xpath",
+			"value": "//span[@itemprop='addressRegion']"
+		}
+	}	
+}

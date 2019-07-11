@@ -1,0 +1,20 @@
+{
+	"native":{	
+		"_txtUsernameLocator":{
+			"type":"xpath",
+			"value":"//android.widget.FrameLayout[@resource-id='android:id/content']//android.widget.EditText[1]"
+		},
+		"_txtPasswordLocator":{
+			"type":"xpath",
+			"value":"//android.widget.FrameLayout[@resource-id='android:id/content']//android.widget.EditText[2]"
+		},
+		"_btnLoginLocator":{
+			"type":"xpath",
+			"value":"//android.widget.FrameLayout[@resource-id='android:id/content']//android.widget.Button"
+		},
+		"_lnkForgotPasswordLinkLocator": {
+			"type":"xpath",
+			"value":"//android.widget.FrameLayout[@resource-id='android:id/content']//android.widget.TextView[@text='Forgot Password']"
+		}
+	}
+}

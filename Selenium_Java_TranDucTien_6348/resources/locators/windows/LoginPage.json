@@ -1,0 +1,20 @@
+{
+	"default": {
+		"cbbRepo": {
+			"type": "xpath",
+			"value": "//div[@class='item repo']/select"
+		},
+		"txtUsername": {
+			"type": "xpath",
+			"value": "//input[@id='username']"
+		},
+		"txtPassword": {
+			"type": "xpath",
+			"value": "//input[@id='password']"
+		},
+		"btnLogin": {
+			"type": "xpath",
+			"value": "//div[@class='btn-login']"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"default": {
+		"txtPageName": {
+			"type": "xpath",
+			"value": "//input[@id='name']"
+		},
+		"cboParentPage": {
+			"type": "xpath",
+			"value": "//select[@id='parent']"
+		},
+		"cboNumberOfColumns": {
+			"type": "xpath",
+			"value": "//select[@id='columnnumber']"
+		},
+		"cboDisplayAfter": {
+			"type": "xpath",
+			"value": "//select[@id='afterpage']"
+		},
+		"chkIsPublic": {
+			"type": "xpath",
+			"value": "//input[@id='ispublic']"
+		},
+		"btnOK": {
+			"type": "xpath",
+			"value": "//div[@id='div_popup']//input[@id='OK']"
+		},
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//div[@id='div_popup']//input[@id='Cancel']"
+		}
+	}
+}

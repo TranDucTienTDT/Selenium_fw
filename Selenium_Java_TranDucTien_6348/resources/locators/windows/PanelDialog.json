@@ -1,0 +1,132 @@
+{
+	"default": {
+		"tabDisplaySettings": {
+			"type": "xpath",
+			"value": "//li/a[@href='#tabs-displaySettings']"
+		},
+		"tabFilters": {
+			"type": "xpath",
+			"value": "//li/a[@href='#tabs-data']"
+		},
+		"radChart": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType0']"
+		},
+		"radIndicator": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType1']"
+		},
+		"radReport": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType2']"
+		},
+		"radHeatMap": {
+			"type": "xpath",
+			"value": "//input[@id='radPanelType3']"
+		},
+		"cbbProfile": {
+			"type": "xpath",
+			"value": "//select[@id='cbbProfile']"
+		},
+		"txtDisplayName": {
+			"type": "xpath",
+			"value": "//input[@id='txtDisplayName']"
+		},
+		"txtChartTitle": {
+			"type": "xpath",
+			"value": "//input[@id='txtChartTitle']"
+		},
+		"chkShowTitle": {
+			"type": "xpath",
+			"value": "//input[@id='chkShowTitle']"
+		},
+		"cbbChartType": {
+			"type": "xpath",
+			"value": "//select[@id='cbbChartType']"
+		},
+		"radChartStyle2D": {
+			"type": "xpath",
+			"value": "//input[@id='rdoChartStyle2D']"
+		},
+		"radChartStyle3D": {
+			"type": "xpath",
+			"value": "//input[@id='rdoChartStyle3D']"
+		},
+		"cbbCategoryField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbCategoryField']"
+		},
+		"cbbSeriesField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbSeriesField']"
+		},
+		"txtIndicatorTitle": {
+			"type": "xpath",
+			"value": "//input[@id='txtIndicatorTitle']"
+		},
+		"cbbStatField": {
+			"type": "xpath",
+			"value": "//select[@id='cbbStatField']"
+		},
+		"cbbDataProfile": {
+			"type": "xpath",
+			"value": "//select[@id='cbbProfile']"
+		},
+		"txtCategoryCaption": {
+			"type": "xpath",
+			"value": "//input[@id='txtCategoryXAxis']"
+		},
+		"txtSeriesCaption": {
+			"type": "xpath",
+			"value": "//input[@id='txtValueYAxis']"
+		},
+		"radLegendsNone": {
+			"type": "xpath",
+			"value": "//input[@id='radPlacementNone']"
+		},
+		"radLegendsTop": {
+			"type": "xpath",
+			"value": "//input[@id='radPlacementTop']"
+		},
+		"radLegendsRight": {
+			"type": "xpath",
+			"value": "//input[@id='radPlacementRight']"
+		},
+		"radLegendsBottom": {
+			"type": "xpath",
+			"value": "//input[@id='radPlacementBottom']"
+		},
+		"radLegendsLeft": {
+			"type": "xpath",
+			"value": "//input[@id='radPlacementLeft']"
+		},
+		"chkDataLabelsSeries": {
+			"type": "xpath",
+			"value": "//input[@id='chkSeriesName']"
+		},
+		"chkDataLabelsCategories": {
+			"type": "xpath",
+			"value": "//input[@id='chkCategoriesName']"
+		},
+		"chkDataLabelsValue": {
+			"type": "xpath",
+			"value": "//input[@id='chkValue']"
+		},
+		"chkDataLabelsPercentage": {
+			"type": "xpath",
+			"value": "//input[@id='chkPercentage']"
+		},
+		"btnOK": {
+			"type": "xpath",
+			"value": "//div[input[@id='btnSaveAs']]/input[@id='OK']"
+		},
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//div[input[@id='btnSaveAs']]/input[@id='Cancel']"
+		},
+		"fdPanelSettings": {
+			"type": "xpath",
+			"value": "//fieldset[legend[text()='%s']]"
+		}
+	}
+}
